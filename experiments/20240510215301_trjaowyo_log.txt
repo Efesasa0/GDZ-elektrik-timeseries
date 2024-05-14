@@ -1,0 +1,18 @@
+Writing results to  ./experiments/
+fold: 0 train: [2021-01-01 - 2023-09-30] val: [2023-10-01 - 2023-10-29]
+val: 2023-10-01 model: xgboost        validation MAE (agg by item_id): 2.291
+val: 2023-10-01 model: catboost       validation MAE (agg by item_id): 2.198
+val: 2023-10-01 model: lightgbm       validation MAE (agg by item_id): 2.242
+fold: 1 train: [2021-01-01 - 2023-10-31] val: [2023-11-01 - 2023-11-29]
+val: 2023-11-01 model: xgboost        validation MAE (agg by item_id): 3.339
+val: 2023-11-01 model: catboost       validation MAE (agg by item_id): 3.075
+val: 2023-11-01 model: lightgbm       validation MAE (agg by item_id): 3.152
+fold: 2 train: [2021-01-01 - 2023-11-30] val: [2023-12-01 - 2023-12-29]
+val: 2023-12-01 model: xgboost        validation MAE (agg by item_id): 2.581
+val: 2023-12-01 model: catboost       validation MAE (agg by item_id): 2.433
+val: 2023-12-01 model: lightgbm       validation MAE (agg by item_id): 2.408
+fold: 3 train: [2021-01-01 - 2023-12-31] val: [2024-01-01 - 2024-01-29]
+val: 2024-01-01 model: xgboost        validation MAE (agg by item_id): 2.877
+val: 2024-01-01 model: catboost       validation MAE (agg by item_id): 2.767
+val: 2024-01-01 model: lightgbm       validation MAE (agg by item_id): 2.691
+Global MAE average (by item_id, val_date, model)  2.671249489692381

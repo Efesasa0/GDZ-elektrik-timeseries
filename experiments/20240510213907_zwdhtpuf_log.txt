@@ -1,0 +1,10 @@
+Writing results to  ./experiments/
+fold: 0 train: [2021-01-01 - 2023-09-30] val: [2023-10-01 - 2023-10-29]
+val: 2023-10-01 model: xgboost        validation MAE (agg by item_id): 2.230
+val: 2023-10-01 model: catboost       validation MAE (agg by item_id): 2.233
+val: 2023-10-01 model: lightgbm       validation MAE (agg by item_id): 2.205
+fold: 1 train: [2021-01-01 - 2023-10-31] val: [2023-11-01 - 2023-11-29]
+val: 2023-11-01 model: xgboost        validation MAE (agg by item_id): 3.097
+val: 2023-11-01 model: catboost       validation MAE (agg by item_id): 3.045
+val: 2023-11-01 model: lightgbm       validation MAE (agg by item_id): 3.129
+fold: 2 train: [2021-01-01 - 2023-11-30] val: [2023-12-01 - 2023-12-29]
