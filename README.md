@@ -2,7 +2,7 @@
 
 #### Overview
 
-This project contains scripts and utilities developed for the GDZ Elektrik Datathon 2024, aimed at forecasting electricity consumption. Our approach integrates multiple models including XGBoost, CatBoost, and LightGBM, leveraging extensive feature engineering and data preprocessing to enhance prediction accuracy.
+This project contains scripts and utilities developed for the GDZ Elektrik Datathon 2024, aimed at forecasting unintended power outages. Our approach integrates multiple models including XGBoost, CatBoost, and LightGBM, leveraging extensive feature engineering and data preprocessing to enhance prediction accuracy.
 
 #### Competition Link
 
